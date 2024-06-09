@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 2px solid #ffd100;
+}
+
+.polovica {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.topnav a {
+  float: right;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: gainsboro;
+    color: black;
+}
+
+.topnav a.split {
+  float: left;
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+  .topnav a {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+
+  .topnav .polovica {
+    width: 100%;
+    text-align: center;
+  }
+  .topnav a.split {
+    margin: 0 auto;
+    padding-left: 16px;
+}
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+<div class="polovica">
+  <a href="index.php" class="split">NV STAMPA</a>
+  <a href="prijava.php">Administracija</a>
+  <a href="kategorija.php?id=politika">Politika</a>
+  <a href="kategorija.php?id=sport">Sport</a>
+  <a href="index.php">Home</a>
+</div>
+</div>
+
+</body>
+</html>

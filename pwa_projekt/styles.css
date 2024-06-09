@@ -1,0 +1,50 @@
+.navigation {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.links {
+    float: right;
+    width: 50%;
+}
+
+.links ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.links li:first-child {
+    margin-left: 0;
+}
+
+.links li:last-child {
+    margin-right: 0;
+}
+
+.links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
